@@ -1,6 +1,6 @@
 {
   "name": "@dulgi/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable eslint configs file for TypeScript based React app project",
   "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/eslint-config",
   "author": "taehyeon <toby2009@naver.com>",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@dulgi/prettier-config": "^1.0.0",
+    "@dulgi/prettier-config": "1.0.1",
     "eslint": "^8.37.0"
   }
 }
