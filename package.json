@@ -1,10 +1,24 @@
 {
-  "name": "root",
+  "name": "@dulgi/react-simple-toolkit",
+  "repository": "https://github.com/STHyeon/react-simple-toolkit",
+  "author": "taehyeon <toby2009@naver.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "~16.14",
+    "yarn": ">=1.20 <2"
+  },
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "lerna run build"
+  },
+  "dependencies": {},
   "devDependencies": {
-    "lerna": "^6.6.1"
+    "lerna": "^6.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
   }
 }

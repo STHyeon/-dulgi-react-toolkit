@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/eslint-config"
+    },
+    {
+      "path": "./packages/prettier-config"
+    }
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+    }
+  }
+}

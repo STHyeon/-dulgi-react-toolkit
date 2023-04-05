@@ -1,15 +1,25 @@
 {
   "name": "@dulgi/eslint-config",
   "version": "1.0.0",
-  "description": "> TODO: description",
-  "author": "taehyeon <taehyeon@elicer.com>",
-  "homepage": "https://github.com/STHyeon/react-simple-toolkit#readme",
-  "license": "ISC",
-  "main": "index.js",
+  "description": "Shareable eslint configs file for TypeScript based React app project",
+  "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/eslint-config",
+  "author": "taehyeon <toby2009@naver.com>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": "~16.14",
+    "yarn": ">=1.20 <2"
+  },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
+    "@dulgi/prettier-config": "^1.0.0",
     "eslint": "^8.37.0"
   }
 }

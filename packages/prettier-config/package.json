@@ -1,15 +1,31 @@
 {
   "name": "@dulgi/prettier-config",
   "version": "1.0.0",
-  "description": "> TODO: description",
-  "author": "taehyeon <taehyeon@elicer.com>",
-  "homepage": "https://github.com/STHyeon/react-simple-toolkit#readme",
-  "license": "ISC",
-  "main": "index.js",
+  "description": "Shareable prettier configs for web apps and libraries",
+  "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/prettier-config",
+  "author": "taehyeon <toby2009@naver.com>",
+  "license": "MIT",
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": "~16.14",
+    "yarn": ">=1.20 <2"
+  },
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
   "devDependencies": {
-    "prettier": "^2.8.7"
+    "@types/prettier": "^2.7.2",
+    "prettier": "~2.8.7"
+  },
+  "peerDependencies": {
+    "prettier": "~2.8.7"
   }
 }
