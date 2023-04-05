@@ -8,6 +8,13 @@
   "command": {
     "version": {
       "message": "chore: bump version to %v"
+    },
+    "command": {
+        "bootstrap": {
+            "npmClientArgs": [
+                "--legacy-peer-deps"
+            ]
+        }
     }
   }
 }
