@@ -14,7 +14,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna run build",
-    "pkgs:version": "lerna version --no-push --no-git-tag-version --no-changelog --exact --yes"
+    "pkgs:version": "lerna version --no-push --no-git-tag-version --no-changelog --exact --yes",
+    "pkgs:publish": "lerna publish from-package --yes"
   },
   "dependencies": {},
   "devDependencies": {
