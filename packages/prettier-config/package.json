@@ -1,13 +1,13 @@
 {
   "name": "@dulgi/prettier-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shareable prettier configs for web apps and libraries",
   "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/prettier-config",
   "author": "taehyeon <toby2009@naver.com>",
   "license": "MIT",
   "main": "./dist/index.js",
   "files": [
-    "index.js",
+    "dist",
     "package.json",
     "README.md"
   ],
@@ -22,10 +22,9 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
-    "@types/prettier": "^2.7.2",
-    "prettier": "~2.8.7"
+    "@types/prettier": "^2.7.2"
   },
   "peerDependencies": {
-    "prettier": "~2.8.7"
+    "prettier": "~2.3.1"
   }
 }

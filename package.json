@@ -19,7 +19,9 @@
     "pkgs:publish": "lerna publish from-package --yes"
   },
   "dependencies": {
-    "@dulgi/prettier-config": "^1.0.1"
+    "@dulgi/eslint-config": "^1.0.2",
+    "@dulgi/prettier-config": "^1.0.2",
+    "@types/node": "^18.15.11"
   },
   "devDependencies": {
     "lerna": "^6.6.1",

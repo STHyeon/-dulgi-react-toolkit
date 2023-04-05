@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "cypress/**/*.js",
+    "cypress/**/*.ts",
+    "craco.config.ts"
+  ]
+}

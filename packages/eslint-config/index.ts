@@ -9,6 +9,7 @@ export = {
   plugins: ['react', '@typescript-eslint', 'simple-import-sort'],
   parserOptions: {
     project: ['tsconfig.eslint.json'],
+    tsconfigRootDir: process.cwd(),
     sourceType: 'module',
     ecmaVersion: 2020,
   },
