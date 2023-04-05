@@ -1,7 +1,10 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "./dist"
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "importHelpers": true,
+    "noEmit": false,
+    "declaration": false,
   }
 }

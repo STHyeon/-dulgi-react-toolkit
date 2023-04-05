@@ -5,7 +5,7 @@
   "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/prettier-config",
   "author": "taehyeon <toby2009@naver.com>",
   "license": "MIT",
-  "main": "./index.js",
+  "main": "./dist/index.js",
   "files": [
     "index.js",
     "package.json",

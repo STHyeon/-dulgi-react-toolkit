@@ -14,10 +14,13 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna run build",
+    "clean": "lerna clean",
     "pkgs:version": "lerna version --no-push --no-git-tag-version --no-changelog --exact --yes",
     "pkgs:publish": "lerna publish from-package --yes"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@dulgi/prettier-config": "^1.0.1"
+  },
   "devDependencies": {
     "lerna": "^6.6.1",
     "ts-node": "^10.9.1",
