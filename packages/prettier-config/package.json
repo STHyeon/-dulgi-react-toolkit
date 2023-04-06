@@ -1,6 +1,6 @@
 {
   "name": "@dulgi/prettier-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shareable prettier configs for web apps and libraries",
   "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/prettier-config",
   "author": "taehyeon <toby2009@naver.com>",
