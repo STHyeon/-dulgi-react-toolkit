@@ -4,7 +4,7 @@ Shareable [eslint](https://eslint.org/docs/latest/) configuration for web apps a
 ## Install
 
 ```bash
-yarn add --dev @dulgi/eslint-config
+yarn add @dulgi/eslint-config
 ```
 
 ### Peer Dependencies
