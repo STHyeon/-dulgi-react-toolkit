@@ -1,6 +1,6 @@
 {
   "name": "@dulgi/eslint-config",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Shareable eslint configs file for TypeScript based React app project",
   "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/eslint-config",
   "author": "taehyeon <toby2009@naver.com>",
@@ -22,6 +22,7 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "~5.57.1",
     "eslint": "~8.0.0",
     "eslint-config-prettier": "~8.3.0",
