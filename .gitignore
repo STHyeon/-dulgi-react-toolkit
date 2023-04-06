@@ -8,4 +8,5 @@
 **/node_modules
 
 # misc
+lerna-debug.log
 yarn-error.log
