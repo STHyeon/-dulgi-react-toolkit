@@ -7,6 +7,9 @@
 # dependencies
 **/node_modules
 
+# IDE - VSCode
+.vscode/*
+
 # misc
 lerna-debug.log
 yarn-error.log
