@@ -1,0 +1,26 @@
+{
+  "name": "@dulgi/design-system",
+  "version": "0.0.1",
+  "description": "A common MUI design system for React app projects based on the TypeScript language.",
+  "repository": "https://github.com/STHyeon/react-simple-toolkit/tree/main/packages/design-system",
+  "homepage": "https://github.com/STHyeon/react-simple-toolkit/",
+  "keywords": [],
+  "author": "taehyeon <dulgi@kakao.com>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": "~16.14",
+    "yarn": ">=1.20 <2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

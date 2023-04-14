@@ -9,7 +9,7 @@
     "eslintplugin",
     "eslintconfig"
   ],
-  "author": "taehyeon <toby2009@naver.com>",
+  "author": "taehyeon <dulgi@kakao.com>",
   "license": "MIT",
   "main": "./dist/index.js",
   "files": [
